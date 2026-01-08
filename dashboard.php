@@ -1,4 +1,6 @@
 <?php
+include 'koneksi.php';
+
 //query untuk mengambil data article
 $sql1 = "SELECT * FROM article ORDER BY tanggal DESC";
 $hasil1 = $conn->query($sql1);

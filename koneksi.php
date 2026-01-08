@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Jakarta');
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "webdailyjournal"; //nama database
+$db = "db_user"; //nama database
 
 //create connection
 $conn = new mysqli($servername,$username,$password,$db);
